@@ -1,0 +1,27 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore Cypress generated folders
+cypress/screenshots/
+cypress/videos/
+
+# Ignore cypress fixtures
+cypress/fixtures/
+
+# Ignore environment variables
+.env
+
+# Ignore config files
+.cypress.env.json
+.badeballrc.json
+cypress.config.js
+
+# Ignore logs
+*.log
+
+# Ignore package-lock.json (optional but often ignored)
+package-lock.json
+
+# Ignore system files (macOS, Windows, etc.)
+.DS_Store
+Thumbs.db
